@@ -47,6 +47,7 @@
 #define LANG_HASKELL "haskell"
 #define LANG_HAML "haml"
 #define LANG_HAXE "haxe"
+#define LANG_HERSCHEL "herschel"
 #define LANG_HTML "html"
 #define LANG_IDL_PVWAVE "idl_pvwave"
 #define LANG_JAVA "java"

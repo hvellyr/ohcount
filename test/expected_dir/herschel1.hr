@@ -1,0 +1,27 @@
+herschel	code	module beer99
+herschel	blank	
+herschel	comment	--import "io/io.h"
+herschel	blank	
+herschel	code	def type OutPort
+herschel	code	def *stdout*() : OutPort ...
+herschel	code	def generic outln(port = *stdout*(), msgs ...) : Int ...
+herschel	blank	
+herschel	code	def bottles(n : Int)
+herschel	comment	    ~ Prints the song with @prm{n} bottles of beer. ~
+herschel	code	  for (i in n .. 0 by -1) {
+herschel	code	    let number-str = select (i) {
+herschel	code	                       | 0 -> "No more bottles"
+herschel	code	                       | 1 -> "One bottle"
+herschel	code	                       | else "%d bottles" % i
+herschel	code	                     }
+herschel	code	    outln("%s of beer on the wall" % number-str)
+herschel	code	    outln("%s of beer" % number-str)
+herschel	code	    outln("Take one down, pass it around")
+herschel	code	    outln("%s of beer on the wall" % number-str)
+herschel	code	    outln()
+herschel	code	  }
+herschel	blank	
+herschel	code	def app|main()
+herschel	code	  bottles(99)
+herschel	blank	
+herschel	comment	-- end of 99beer

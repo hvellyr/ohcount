@@ -110,6 +110,7 @@ void test_parser_verify_entity(SourceFile *sf, const char *entity,
 #include "parsers/test_haml.h"
 #include "parsers/test_haskell.h"
 #include "parsers/test_haxe.h"
+#include "parsers/test_herschel.h"
 #include "parsers/test_html.h"
 #include "parsers/test_idl_pvwave.h"
 #include "parsers/test_java.h"
@@ -286,6 +287,7 @@ void all_parser_tests() {
   all_haml_tests();
   all_haskell_tests();
   all_haxe_tests();
+  all_herschel_tests();
   all_html_tests();
   all_idl_pvwave_tests();
   all_java_tests();

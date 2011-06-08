@@ -1,0 +1,8 @@
+-- This file contains some herschel code
+
+def var semicola = 0
+
+-- simple function to increase a global variable by one
+def generic count-semicola(c)
+  if (c == \;)
+    semicola = semicola + 1

@@ -1,0 +1,5 @@
+module xi
+
+-- just some function
+def foo(i)
+  i * 2
