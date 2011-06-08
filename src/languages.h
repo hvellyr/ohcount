@@ -90,6 +90,7 @@
 #define LANG_SQL "sql"
 #define LANG_TCL "tcl"
 #define LANG_TEX "tex"
+#define LANG_TEXINFO "texinfo"
 #define LANG_VALA "vala"
 #define LANG_VB_ASPX "vb_aspx"
 #define LANG_VHDL "vhdl"

@@ -1,0 +1,17 @@
+\input texinfo @c -*-texinfo-*-
+@setfilename foo.info
+@settitle Foo -- The Tool
+
+@menu
+* Introduction::                Introduction
+@end menu
+
+@c ====================================================================
+@node Introduction, , Top, Top
+@chapter Introduction
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua.
+
+@bye

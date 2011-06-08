@@ -1,0 +1,21 @@
+texinfo	code	\input texinfo @c -*-texinfo-*-
+texinfo	code	@setfilename foo.info
+texinfo	blank	
+texinfo	comment	@c The title
+texinfo	code	@settitle Foo -- The Tool
+texinfo	blank	
+texinfo	comment	@c main menu
+texinfo	code	@menu
+texinfo	code	* Introduction::                Introduction
+texinfo	code	@end menu
+texinfo	blank	
+texinfo	blank	
+texinfo	comment	@c ====================================================================
+texinfo	code	@node Introduction, , Top, Top
+texinfo	code	@chapter Introduction
+texinfo	blank	
+texinfo	code	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+texinfo	code	nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+texinfo	code	sed diam voluptua.
+texinfo	blank	
+texinfo	code	@bye

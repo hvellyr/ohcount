@@ -172,6 +172,7 @@ t, LANG_PERL
 tar, BINARY
 tcl, LANG_TCL
 tex, LANG_TEX
+texinfo, LANG_TEXINFO
 tgz, BINARY
 tif, BINARY
 tiff, BINARY
